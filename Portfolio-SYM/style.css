@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Css for All Start */
+.button{
+    border-radius: 3px;
+padding: 6px 17px;
+background: none;
+border: 1px solid cornflowerblue;
+font-family: Arial, Helvetica, sans-serif;
+transition-duration: 500ms;
+margin-top: 11px;
+}
+
+button:hover{
+    background-color: cornflowerblue;
+    /* border: none; */
+    color: rgb(46, 45, 45);
+    }
+
+    .line{
+        width: 25%;
+        margin: 0 auto;
+        height: 1px;
+        background-color: rgb(92, 143, 239);
+    }
+    
+    .big-line{
+        width: 100%;
+        height: 1px;
+        background-color: rgba(100, 148, 237, 0.275);
+        margin: 50px 0;
+    }
+
+    .s-gap{
+        margin: 20px 0;
+    }
+    
+    .b-gap{
+        margin: 28px 0;
+    }
+
+/* Css for All End */
+
+/* Nav Start -------------------------------------------- */
+
+.nav-link{
+    color: black;
+}
+/* nav{
+
+    overflow: auto;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--font-high-emphasis, #25282B);
+    font-family: 'Comfortaa', cursive;
+}
+
+nav ul li a{
+    margin: 0 22px;
+    color: #000;
+    gap: 2px;
+}
+
+nav .right{
+    float: right;
+    margin-left: 68%
+} */
+
+/* Nav End -------------------------------------------- */
+
+
+/* head Start ----------------------------------------- */
+
+.sym{
+    transition-duration: 1s;
+}
+
+.sym:hover{
+    margin-left: -33px;
+    /* margin-top: -33px; */
+}
+
+.main{
+margin: 70px 0;
+}
+
+.main img{
+    width: 60%;
+}
+
+.main .yellow{
+    color: hsl(212, 94%, 67%);
+    font-family: 'Nunito Sans', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+letter-spacing: 1px;
+word-spacing: 1px;
+}
+
+.para{
+    color: #828282;
+    font-family: 'Nunito Sans', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+/* text-align: justify; */
+}
+
+.main .gap{
+    margin-left: 20px; 
+}
+
+/* head End ----------------------------------------- */
+
+/* Skills section Start --------------------------------- */
+
+.skills{
+    margin-top: 100px;
+    background-color: rgba(100, 148, 237, 0.054);
+    padding-bottom: 22px;
+}
+
+.skills .line{
+    margin-bottom: 50px;
+}
+
+.skills img{
+    width: 15%;
+}
+
+.skills h4{
+    text-transform: uppercase;
+    font-weight:600;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: gray;
+    margin-bottom: 22px;
+    text-align: left;
+    margin-left: 18px;
+}
+
+.skills h6{
+    margin-top: 5px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.skills .canva{
+    width: 25%;
+    margin-top: 22px;    
+}
+
+.skills .sass{
+    width: 22%;
+    margin-top: 11px;
+}
+
+
+/* Skills section End --------------------------------- */
+
+/* Projects section start  -------------------------------*/
+
+.projects{
+   margin-top: 100px;
+   overflow: auto;
+}
+
+h2{
+font-family: 'Playfair Display', serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 72px;
+text-align: center;
+}
+
+.projects img{
+    width: 100%;
+    height: 300px;
+}
+
+.projects .left{
+    margin-top: 100px;
+}
+.projects .right{
+    margin-top: 50px;
+}
+
+.projects .button{
+    border-radius: 24px;
+}
+
+.projects .right2{
+    margin-top: 15px;
+}
+
+/* Projects section End ----------------------------------*/
+
+
+/* About section Start ---------------------------------- */
+.bio{
+  margin-top: 50px;
+  background-color: rgba(100, 148, 237, 0.054);
+  padding-bottom: 22px;
+}
+
+.bio h5{
+    font-weight: 600;
+    margin-bottom: 11px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.m-left{
+    margin-left: 17px;  
+}
+
+.bold{
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* About section End---------------------------------- */
+
+
+/* Contact sec Start ----------------------------------- */
+
+.contact{
+    margin-top: 50px;
+}
+
+.contact input{
+    display: block;
+   width: 400px;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding: 3px 8px;
+   border: none;
+   background-color: transparent;
+   border-left: 1px solid #000000c4;
+   border-bottom: 1px solid #000000b7;
+}
+
+.contact button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 33px;
+   
+}
+
+/* Contact sec end ----------------------------------- */
+
+footer{
+    margin: 50px 0;
+    overflow: auto;
+}
+
+.social{
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+.social .fa{
+   font-size: 35px;
+   margin-left: 15px;
+}
